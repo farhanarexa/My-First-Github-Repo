@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>
+        #good {
+            font-weight: 900;
+        }
+
+        p {
+            color: rgb(57, 120, 188);
+        }
+
+        .pretty,
+        .green {
+            background-color: rgb(222, 222, 222);
+
+        }
+
+        .look, li {
+            font-weight: 700;
+            font-weight: bolder;
+            background-color: rgb(255, 230, 0);
+        }
+        input{
+            font-weight: bolder;
+        }
+        input[type="password"]{
+            color: rgb(190, 100, 100);
+        }
+        .box{
+            background-color: rgb(0, 3, 97);
+            color: aliceblue;
+            font-size: larger;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="font-size: 40px ; color: rosybrown ; text-align: center;">Explore Mixed Selectors</h2>
+    <p class="pretty">My first <span class="look">paragraph</span></p>
+    <p class="pretty look">My second paragraph</p>
+    <p class="look">My third paragraph</p>
+    <p>My fourth paragraph</p>
+    <p id="good">My fifth paragraph</p>
+    <p class="green">My sixth paragraph</p>
+    <p>My seventh paragraph</p>
+<ul>
+    <li>Farhana</li>
+    <li>Ariful</li>
+    <li>Raihana</li>
+    <li>Mahi</li>
+    <li>Kajol</li>
+</ul>
+<form action="">
+    <input type="username" placeholder="username">
+    <br>
+    <input type="password" placeholder="password">
+    <br>
+    <button>login</button>
+
+    <div class="box">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti ipsa adipisci sequi tempora ad, vero earum, sit quaerat ab reiciendis dicta a velit, eaque omnis similique quo amet! Ratione, dolores!</p>
+        </div>
+
+</form>
+
+</body>
+
+</html>
